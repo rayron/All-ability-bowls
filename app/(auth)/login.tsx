@@ -14,18 +14,22 @@ export default function LoginScreen() {
       >
         <View style={styles.container}>
           <View style={styles.headerContainer}>
-            <Text style={styles.logo}>BowlTracker</Text>
+            <Text style={styles.logo}>All Ability Bowls</Text>
             <Text style={styles.tagline}>Score your way to victory</Text>
           </View>
           
           <View style={styles.imageContainer}>
             <Image
-              source={{ uri: 'https://images.pexels.com/photos/4429422/pexels-photo-4429422.jpeg' }}
+              source={require('@/assets/images/slide2.jpg')}
               style={styles.image}
               resizeMode="cover"
             />
           </View>
           
+
+
+     
+
           <View style={styles.formContainer}>
             <Text style={styles.formTitle}>Login</Text>
             <Text style={styles.formSubtitle}>Welcome back! Please login to your account</Text>

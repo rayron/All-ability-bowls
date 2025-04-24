@@ -27,6 +27,7 @@ export const OnboardingSlide: React.FC<OnboardingSlideProps> = ({
       exiting={FadeOut.duration(500)}
     >
       <View style={styles.imageContainer}>
+    
         <Image 
           source={image} 
           style={styles.image}

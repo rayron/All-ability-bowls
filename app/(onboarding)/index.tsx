@@ -20,24 +20,26 @@ interface OnboardingContent {
   imageUrl: any;
 }
 
+
+
 const onboardingContent: OnboardingContent[] = [
   {
     id: 'welcome',
     title: 'All ability bowls',
     description: 'The application for tracking and managing your bowling games in real-time.',
-    imageUrl: { uri: 'https://images.pexels.com/photos/4429422/pexels-photo-4429422.jpeg' },
+    imageUrl: require('@/assets/images/group.jpg'),
   },
   {
     id: 'games',
     title: 'Join Live Games',
-    description: 'Connect to games created by admins and track scores frame by frame.',
-    imageUrl: { uri: 'https://images.pexels.com/photos/8827392/pexels-photo-8827392.jpeg' },
+    description: 'Connect to games created by admins and track scores end by end.',
+    imageUrl: require('@/assets/images/slide2.jpg'),
   },
   {
     id: 'scoring',
     title: 'Easy Score Tracking',
     description: 'Update your scores with a simple tap and see scores calculated automatically.',
-    imageUrl: { uri: 'https://images.pexels.com/photos/344034/pexels-photo-344034.jpeg' },
+    imageUrl: require('@/assets/images/slide3.jpg'),
   },
 ];
 
