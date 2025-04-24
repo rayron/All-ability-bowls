@@ -27,15 +27,16 @@
         "origin": false
       },
       "eas": {
-        "projectId": "f0a611eb-d06a-466f-bb64-53860fe021b4"
+        "projectId": "1d7bff2c-54cf-44bb-a763-e6273eed91fe"
       }
     },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/f0a611eb-d06a-466f-bb64-53860fe021b4"
+      "url": "https://u.expo.dev/1d7bff2c-54cf-44bb-a763-e6273eed91fe"
     },
-    "android": {}
+    "android": {},
+    "owner": "rayron"
   }
 }

@@ -17,7 +17,7 @@ import { AuthProvider } from '@/contexts/AuthContext';
 
 // Only prevent splash screen auto-hide on native platforms
 if (Platform.OS !== 'web') {
-  SplashScreen.preventAutoHideAsync();
+  // SplashScreen.preventAutoHideAsync();
 }
 
 export default function RootLayout() {
@@ -34,7 +34,7 @@ export default function RootLayout() {
   // Hide splash screen when fonts are loaded (only on native platforms)
   useEffect(() => {
     if (Platform.OS !== 'web' && (fontsLoaded || fontError)) {
-      SplashScreen.hideAsync();
+      // SplashScreen.hideAsync();
     }
   }, [fontsLoaded, fontError]);
 
